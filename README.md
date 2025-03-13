@@ -302,14 +302,14 @@ export default async function Page({
 }
 ```
 
-# Data Cashing
+# Data Cacheing
 
 - 서버가 실행되는 동안에 요청된 데이터를 서버에 보관하는 것.
 
 ## 전제조건
 
 - Next.js 의 fetch 를 사용한다.
-- fetch("API", {Cash 옵션} )
+- fetch("API", {cache 옵션} )
 
 ## 종류
 
@@ -335,7 +335,7 @@ const nextConfig: NextConfig = {
       },
     ],
   },
-  // BE API 호출시 과정 및 Data Cash 정보
+  // BE API 호출시 과정 및 Data Cache 정보
   logging: {
     fetches: {
       fullUrl: true,
