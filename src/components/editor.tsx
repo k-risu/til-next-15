@@ -1,7 +1,6 @@
 "use client";
 import { createReviewAction } from "@/actions/create-review-action";
 import style from "@/components/editor.module.css";
-import { stat } from "fs";
 import { useActionState, useEffect } from "react";
 
 export default function Editor() {
